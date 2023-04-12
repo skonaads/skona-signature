@@ -21,11 +21,23 @@
 			}
 			p { margin: 0 !important; padding: 0 !important; }
 			a { text-decoration: none; color: inherit; }
+			a[x-apple-data-detectors] {
+				text-decoration: none !important;
+				color: #343434 !important;
+			}
+			u + #body a {
+				text-decoration: none !important;
+				color: #343434 !important;
+			}
+			#MessageViewBody a {
+				text-decoration: none !important;
+				color: #343434 !important;
+			}
 		</style>
 		<meta name="robots" content="noindex, nofollow">
 	</head>
 
-	<body style="display: block !important; margin: 0 !important; padding: 0 !important; width: 100% !important; -webkit-text-size-adjust: none; -ms-text-size-adjust: none;">
+	<body id="body" style="display: block !important; margin: 0 !important; padding: 0 !important; width: 100% !important; -webkit-text-size-adjust: none; -ms-text-size-adjust: none;">
 		<div class="signature-form" style="padding: 0 20px; font-family: Arial, Helvetica, sans-serif; font-size: 12px;">
 			<h1>Sk&#246;na Email Signature Generator</h1>
 
@@ -34,9 +46,9 @@
 			<p>After filling out the form, use `Cmd+A` followed by `Cmd+C` to copy the signature</p>
 
 			<form id="the-form">
-				<input type="text" name="name" placeholder="name" style="margin-top: 10px;"><br>
-				<input type="text" name="title" placeholder="title" style="margin-top: 5px;"><br>
-				<input type="text" name="phone" placeholder="phone" value="+1 415 494 2854 x200" style="margin-top: 5px;"><br>
+				<input type="text" name="name" placeholder="Name" required style="margin-top: 10px;"><br>
+				<input type="text" name="title" placeholder="Title" required style="margin-top: 5px;"><br>
+				<input type="text" name="phone" placeholder="Phone" required value="+1 415 494 2854 x200" style="margin-top: 5px;"><br>
 				<small>Format: +1 415 494 2854 x200<br>+46 71 782 30 00</small>
 
 				<br><br>
@@ -273,7 +285,7 @@
 							<tr>
 								<td>
 									<a href="https://www.skona.com/" target="_blank">
-										<img src="https://skonaads.github.io/skona-signature/img/skona.png" width="42" height="12" border="0" alt="Sköna" />
+										<img src="https://skonaads.github.io/skona-signature/img/skona.png" width="39.5" height="12" border="0" alt="Sköna" />
 									</a>
 								</td>
 							</tr>
@@ -288,7 +300,7 @@
 							<tr>
 								<td>
 
-									<div style="color: #343434; font-family: Georgia, Times, Times New Roman, serif; font-size: 14px; line-height: 15px; font-weight: 700; letter-spacing: 0;">
+									<div style="color: #343434;font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 15px; font-weight: 700; letter-spacing: 0;">
 										<span class="name">Your name</span>
 									
 										<span style="font-weight: 400;">
@@ -306,7 +318,7 @@
 							<tr>
 								<td>
 									
-									<div class="details" id="phone" style="color: #343434; font-family: Arial, Helvetica, sans-serif; font-size: 9.5px; font-style: normal; letter-spacing: 0.5px; line-height: 14px;">
+									<div class="details" id="phone" style="color: #343434; font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; letter-spacing: 0.5px; line-height: 14px;">
 										<a href="tel:4154942854" id="phone-num" style="color: #343434; text-decoration: none;">
 											<span style="text-decoration: none;" id="actual-number">
 												415.494.2854
@@ -314,11 +326,11 @@
 										</a>
 									</div>
 									
-									<div class="details" id="address" style="color: #343434; font-family: Arial, Helvetica, sans-serif; font-size: 9.5px; font-style: normal; letter-spacing: 0.5px; line-height: 14px;">
+									<div class="details" id="address" style="color: #343434; font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; letter-spacing: 0.5px; line-height: 14px;">
 										147 Natoma Street<br>San Francisco, CA 94105
 									</div>
 									
-									<div class="details" style="color: #343434; font-family: Arial, Helvetica, sans-serif; font-size: 9.5px; font-style: normal; font-weight: 700; letter-spacing: 0.5px; line-height: 14px;">
+									<div class="details" style="color: #343434; font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: 700; letter-spacing: 0.5px; line-height: 14px;">
 										<a href="https://www.skona.com" style="color: #343434; text-decoration: none;">
 											skona.com
 										</a>
@@ -332,5 +344,54 @@
 				</tr>
 			</tbody>
 		</table>
+
+		<table>
+			<tbody>
+				<tr>
+					<td height="40" style="line-height: 0pt; font-size: 0pt;">&nbsp;</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" align="top">
+			<tbody>
+				<tr>
+					<td>
+						<div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 16px; font-weight: 400; color: #343434;">
+							🔥 Check out our recent press coverage in <a href="https://www.fastcompany.com/90856449/no-your-company-is-not-your-family" style="color: #343434; text-decoration: underline">Fast Company</a> and <a href="https://www.hrmorning.com/news/brand-values" style="color: #343434; text-decoration: underline">HR Morning</a> 
+						</div>
+						<div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 21px; font-weight: 400; color: #343434;">
+							<a href="https://www.fastcompany.com/90856449/no-your-company-is-not-your-family" style="color: #343434; text-decoration: underline">No, Your Company is Not Your Family</a>
+						</div>
+						<div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 21px; font-weight: 400; color: #343434;">
+							<a href="https://www.hrmorning.com/news/brand-values" style="color: #343434; text-decoration: underline">How Brand Values Can Help You Attract Top Young Talent</a>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<table>
+			<tbody>
+				<tr>
+					<td height="20" style="line-height: 0pt; font-size: 0pt;">&nbsp;</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table border="0" cellpadding="0" cellspacing="0" width="181" align="top">
+			<tbody>
+				<tr>
+					<td width="81.5" valign="middle" style="line-height: 0pt; font-size: 0pt;">
+						<img src="https://skonaads.github.io/skona-signature/img/fastcompany.png" style="display: block;" width="81.5" height="12" alt="fastcompany">
+					</td>
+					<td width="10" valign="top" style="line-height: 0pt; font-size: 0pt;">&nbsp;</td>
+					<td width="88.5" valign="middle" style="line-height: 0pt; font-size: 0pt;">
+						<img src="https://skonaads.github.io/skona-signature/img/hrmorning.png" style="display: block;" width="88.5" height="24" alt="hrmorning">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
 	</body>
 </html>
